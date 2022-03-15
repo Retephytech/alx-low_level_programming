@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * print_alphabet - Print alphabet in lowercase
- * 
+ *
  * Return: is void 'using prototype'
  */
 void print_alphabet(void)
