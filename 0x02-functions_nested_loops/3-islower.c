@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _islower - Functions that checks for lowercase
+ * test_islower - Functions that checks for lowercase
  *
- * Return: Prototype don't require the return 0 but one can choose to put it
+ * Return: 1 for lowercase otherwise 0
  */
 int _islower(int c)
 {
-	if (c >= 97 && c <= 122)
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
