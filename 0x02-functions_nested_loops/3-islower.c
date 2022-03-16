@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _islower - controls if a character is in lowercase
  * @c: character to be verified
@@ -6,7 +7,7 @@
  */
 int _islower(int c)
 {
-	if (c >= 'a' && <= 'z')
+	if (c >= 'a'; && <= 'z'; c++)
 	{
 		return (1);
 	}

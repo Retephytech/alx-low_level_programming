@@ -1,8 +1,8 @@
 /**
  * Prototype of all functions used in task
  */
-#ifndef mani.h
-#define main.h
+#ifndef mani_h_
+#define main_h_
 
 int _putchar(char c);
 int putchar(char c);
