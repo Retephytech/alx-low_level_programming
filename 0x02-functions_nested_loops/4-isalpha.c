@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - show 1 if c otherwise show 0
- *
+ * @c: character is to be verified
  * Return: 1 for letters otherwise return 0
  */
 int _isalpha(int c)
