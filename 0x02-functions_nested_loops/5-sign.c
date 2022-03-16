@@ -5,7 +5,7 @@
  *@n: the number
  *Return: 1 is greater than 0, 0 is zero and -1 is less than 0
  */
- int print_sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
