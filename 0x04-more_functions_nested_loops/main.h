@@ -1,7 +1,4 @@
 int _putchar(char c);
-int _putchar(char num);
-int _putchar(int c);
-int _putchar(int num);
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
