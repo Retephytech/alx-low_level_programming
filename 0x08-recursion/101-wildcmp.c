@@ -1,5 +1,11 @@
 #include "main.h"
 #include <stdio.h>
+
+int strlen_no_wilds(char *str);
+void iterate_wild(char **wildstr);
+char *postfix_match(char *str, char *postfix);
+int wildcmp(char *s1, char *s2);
+
 /**
  * wildcmp - compares two strings
  * @s1: 1st string to be compared
