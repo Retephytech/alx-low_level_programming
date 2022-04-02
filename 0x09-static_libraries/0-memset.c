@@ -1,1 +1,6 @@
-char *_memset(char *s, char b, unsigned int n);
+#include "main"
+
+char *_memset(char *s, char b, unsigned int n)
+{
+	return (0);
+}
