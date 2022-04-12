@@ -5,21 +5,23 @@
  * print_dog - prints a dog struct
  * @d: pointer to the dog struct to print.
  */
-
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
 		return;
-	if (d->name)
+
+	if (d->name == NULL)
+		printf("Name: (nil)\n");
+	else
 		printf("Name: %s\n", d->name);
-	else if (!d->name)
-		printf("Name: (nil)");
-	if (d->age)
+
+	if (d->age < 0)
+		printf("Age: (nil)\n");
+	else
 		printf("Age: %f\n", d->age);
-	else if (!d->age)
-		printf("Age: (nil)");
-	if (d->owner)
+
+	if (d->owner == NULL)
+		printf("Owner: (nil)\n");
+	else
 		printf("Owner: %s\n", d->owner);
-	else if (!d->owner)
-		printf("Owner: (nil)");
 }
